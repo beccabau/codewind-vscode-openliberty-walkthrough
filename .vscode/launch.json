@@ -1,0 +1,50 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug grocerybackend",
+            "request": "attach",
+            "hostName": "127.0.0.1",
+            "projectName": "grocerybackend"
+        },
+        {
+            "type": "node",
+            "name": "Debug groceryfrontend",
+            "request": "attach",
+            "address": "127.0.0.1",
+            "localRoot": "/Users/beccabau/Box Sync/Documents/codewind/projects/groceryfrontend",
+            "remoteRoot": "/app",
+            "restart": true
+        },
+        {
+            "type": "node",
+            "name": "Debug my-node-project",
+            "request": "attach",
+            "address": "127.0.0.1",
+            "localRoot": "/Users/beccabau/Box Sync/Documents/codewind/projects/codewind-projects/my-node-project",
+            "remoteRoot": "/app",
+            "restart": true
+        },
+        {
+            "type": "java",
+            "name": "Debug guide-rest-intro",
+            "request": "attach",
+            "hostName": "127.0.0.1",
+            "projectName": "guide-rest-intro"
+        },
+        {
+            "type": "java",
+            "name": "Debug petswagger-ui",
+            "request": "attach",
+            "hostName": "127.0.0.1",
+            "projectName": "petswagger-ui"
+        },
+        {
+            "type": "java",
+            "name": "Debug testspringboot",
+            "request": "attach",
+            "hostName": "127.0.0.1",
+            "projectName": "testspringboot"
+        }
+    ]
+}
